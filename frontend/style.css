@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8e9fe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-1 {
+  display: flex;
+  width: 150%;
+}
+
+.side-bar {
+  background-color: #ea4c3c;
+  width: 300px;
+  height: 1000px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin: 10px;
+}
+
+.main-2 {
+  background-color: #f8f8ff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 280px;
+  margin-left: -250px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 50px 30px;
+}
+
+.main-2 img {
+  border-radius: 10px;
+}
+
+.main-2 h4 {
+  text-indent: 65px;
+  margin-top: -50px;
+}
+.main-2 p {
+  text-indent: 65px;
+  padding-top: 5px;
+}
+
+.main-3 {
+  background-color: #fcfcff;
+  display: flex;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 50px;
+}
+
+.nav-bar {
+  margin-top: 60px;
+  margin-left: -20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+.nav-bar p {
+  padding: 20px 0;
+  color: #75749d;
+}
+
+.main-3 h2 {
+  padding-bottom: 50px;
+}
+.main-3 h5 {
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.main-nav {
+  display: flex;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 130px;
+}
+
+.main-nav li {
+  margin-bottom: 50px;
+}
+.main-nav button {
+  padding: 10px;
+  margin: -15px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.b-last-c a {
+  color: #ee4e38;
+}
+
+.b-last-c h5 {
+  margin-top: 80px;
+}
+
+.b-last-c p {
+  font-size: 10px;
+  word-spacing: 5px;
+}
+
+.b-last-c button {
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 73%;
+  border: 1px solid black;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+
+.last-c {
+  background-color: #ee4e38;
+  height: 230px;
+  padding: 30px;
+  margin-top: 80px;
+  margin-left: -35px;
+  border-radius: 10px;
+  line-height: 40px;
+  color: white;
+}
+
+.last-c h4 {
+  font-size: 25px;
+}
+
+.last-c button {
+  padding: 15px;
+  border: 1px solid white;
+  background-color: #ee4e38;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
